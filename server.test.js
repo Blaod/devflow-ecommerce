@@ -1,7 +1,7 @@
 const test = require("node:test");
 const assert = require("node:assert");
 const http = require("node:http");
-const server = require("./server');
+const server = require("./server");
 
 test("A aplicação deve responder corretamente", async () => {
   if (!server.listening) {
