@@ -1,0 +1,10 @@
+{
+  "name": "devflow-ecommerce",
+  "version": "1.0.0",
+  "description": "Aplicacao simples de e-commerce para atividade CI/CD",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test"
+  }
+}
